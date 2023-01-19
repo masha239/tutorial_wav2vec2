@@ -1,11 +1,7 @@
-# tutorial wav2vec
+# дз 2
 
-Частично обученную модель на датасете ComonVoice6 под русский язык можно скачать с    https://disk.yandex.ru/d/Cpr7H0qFocWi6w  файл «model.zip» , который надо разархивировать в папку model. Или выполнить download_model.ipynb .
+Попытка дообучить модель с https://disk.yandex.ru/d/Cpr7H0qFocWi6w. 
 
-Пример до обучения модели Fine-Tune-Wav2vec.ipynb
+Код дообучения и оценки в Fine-Tune-Wav2vec.ipynb, качество лучше не стало.
 
-Пример использования модели inference.ipynb
-
-Пример принудительного  выравнивания аудио и текста по времени forced_alignment_ctc.ipynb
-
-Описание домашнего задания в hw.txt
+Параметры дообученной (приблизительно в течении 5 эпох, может, дело в этом) модели сохранены по ссылке https://drive.google.com/file/d/1BSamqybwMcEPZK5Qa28N-ENWypqVJ6cl/view?usp=share_link
